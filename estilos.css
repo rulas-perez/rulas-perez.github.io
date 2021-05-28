@@ -1,0 +1,98 @@
+body{
+  background:url(https://3.bp.blogspot.com/-PrjSvKLeqZo/W5F0XntTmkI/AAAAAAAAAJ4/D0LZHhrP_AQNAbGPX5Ybg4xigkECuJJyACLcBGAs/w1200-h630-p-k-no-nu/textura-de-concreto-gratis.jpg);
+  color:#000000;
+  background-attachment: fixed;
+}
+
+h1 {
+	font-family: helvetica;
+	
+    font-size: 140px;
+}
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+img{
+display:block;
+margin:auto;
+
+}
+
+div {
+    width: 90%;
+    background:rgba(181, 188, 191,0.5);
+    margin: 15px 0%;
+    padding:30px;
+    position: center;
+   font-size: 30px;
+}
+}
+
